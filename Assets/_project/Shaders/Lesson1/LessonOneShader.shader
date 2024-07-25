@@ -35,7 +35,7 @@ Shader "ShaderCourse/LessonOneShader"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed4 col = fixed4(0,1,1,1);
+                fixed4 col = fixed4(1,0,0,1);
                 return col;
             }
             ENDCG
